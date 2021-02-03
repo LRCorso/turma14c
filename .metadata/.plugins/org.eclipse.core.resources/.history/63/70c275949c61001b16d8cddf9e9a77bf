@@ -1,0 +1,18 @@
+package br.com.concessionaria.modelo;
+
+public class Veiculo {
+
+	public static void main(String[] args) {
+
+		private String modelo;
+		private String placa;
+		private float valor;
+		private boolean status;
+		private float velocidadeAtual;
+
+
+
+
+	}
+
+}

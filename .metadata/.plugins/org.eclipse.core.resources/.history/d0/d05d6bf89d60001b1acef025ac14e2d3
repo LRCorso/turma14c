@@ -1,0 +1,35 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class DecisaoSimples {
+
+	public static void main(String[] args) {
+
+/*
+ * Capturar:
+ * nome da disciplina:
+ * duas notas:
+ * calcular a media aritimetica:
+ * exibir a media e o nome da disciplina:
+ */
+		
+		String disciplina = JOptionPane.showInputDialog("Nome da Disciplina").toUpperCase();
+		float nota1 = Float.parseFloat(JOptionPane.showInputDialog("Digite a Nota1"));
+		float nota2 = Float.parseFloat(JOptionPane.showInputDialog("Digite a Nota2"));
+        float media = (nota1 + nota2)/2;
+        if (media >=6) {
+        	System.out.println("Parabéns voce está aprovado!!!!");
+        }
+        if (media <=4) {
+        	System.out.println("Infelizmente voce está reprovado!!!!");
+        }
+		System.out.println("A média é: " + media + " na disciplina: " + disciplina);
+		
+		
+		
+		
+
+	}
+
+}
